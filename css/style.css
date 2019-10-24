@@ -1,0 +1,431 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'ComicSansMS', sans-serif;
+  color: #272f27; 
+  width: 100%;}
+
+  header{
+    height: 1500px; }
+
+    header .left {
+      width: 15%;
+      height: 1500px;
+      float: left;
+      background-image: url(../bg_png/left.png);
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: 150px 250px; }
+
+      header .right {
+        margin-left: 15%;
+        height: 800px;
+        background-image: url(../bg_png/1.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 1000px 800px; }
+  
+        header nav {
+          display: flex;
+          justify-content: right;
+          margin-right: 300px; }
+    
+          header nav a {
+            padding: 20px 10px;
+            display: block;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            user-select: none; 
+            font-size: 14px; }
+            
+            header nav a:hover {
+              color: #ff3f40; }
+              
+              header .right .request {
+                float: left;
+                display: flex;
+                flex-direction: column;
+                margin-top: 250px;
+                margin-left: 150px; }
+              
+                header .request h2 {
+                  margin: 0px auto;
+                  margin-bottom: 50px;
+                  text-transform: uppercase; }
+              
+                  header .request input {
+                    width: 250px;
+                    display: block;
+                    border: 0px;
+                    border-bottom: 2px solid #20B2AA;
+                    font-family: "ComicSansMS"; }
+              
+                    header .request p {
+                      color: #20B2AA;
+                      margin: 30px 0px 10px 0px;
+                      text-transform: uppercase;
+                      font-size: 13px; }
+              
+                      header .request button {
+                        background-image: linear-gradient(to right, #fb6a4e, #ff606a);
+                        width: 150px;
+                        height: 40px;
+                        border-radius: 5px;
+                        border: 0px;
+                        color: white;
+                        margin: 0px auto;
+                        margin-top: 40px;
+                        font-size: 15px;
+                        font-family: "ComicSansMS";
+                        text-transform: uppercase; 
+                        background-size: 200% auto;
+                        transition: .5s; }
+              
+                        header .right .image-boy{
+                          margin-top: 150px;
+                          margin-left: 500px; }
+            
+                          header .right img {
+                            width: 500px;
+                            height: 400px;
+                            filter: drop-shadow(-10px 5px 10px); }
+
+                            #req {  
+                              display: flex; 
+                              justify-content: center;
+                              margin: 0px 0px 50px 0px; }
+
+                              header .requirement {
+                                display: flex; 
+                                justify-content: center; 
+                                filter: drop-shadow(-5px 5px 8px #DCDCDC);
+                                font-size: 12px; }
+
+                                header .requirement div {
+                                  border-radius: 5px; }
+
+                                  header .requirement img {
+                                    width: 150px;
+                                    display: block;
+                                    margin: 0px auto; }
+
+                                    header .block_req_bottom1 img {
+                                      padding-top: 20px; }
+
+                                      header .block_req_bottom2 img {
+                                        padding-top: 20px; }
+
+                                        header .block_req_bottom3 img {
+                                          padding-top: 20px; }
+
+                                          header .block_req_bottom4 img {
+                                            padding-top: 20px; }
+
+                                            header .requirement p {
+                                              padding: 0px 20px; }
+
+                                              header .block_req_top1 {
+                                                width: 250px;
+                                                height: 230px;
+                                                background: #F8F8FF;
+                                                margin-right: 10px;
+                                                margin-bottom: 50px; }
+
+                                                header .block_req_bottom1 {
+                                                  width: 250px;
+                                                  height: 230px;
+                                                  background: #F8F8FF;
+                                                  margin-right: 10px; }
+
+                                                  header .block_req_top2 {
+                                                    width: 250px;
+                                                    height: 230px;
+                                                    background: #F8F8FF;
+                                                    margin-right: 10px;
+                                                    margin-bottom: 50px; }
+
+                                                    header .block_req_bottom2 {
+                                                      width: 250px;
+                                                      height: 230px;
+                                                      background: #F8F8FF;
+                                                      margin-right: 10px; }
+
+                                                      header .block_req_top3 {
+                                                        width: 250px;
+                                                        height: 230px;
+                                                        background: #F8F8FF;
+                                                        margin-right: 10px;
+                                                        margin-bottom: 50px; }
+
+                                                        header .block_req_bottom3 {
+                                                          width: 250px;
+                                                          height: 230px;
+                                                          background: #F8F8FF;
+                                                          margin-right: 10px; }
+
+                                                          header .block_req_top4 {
+                                                            width: 250px;
+                                                            height: 230px;
+                                                            background: #F8F8FF;
+                                                            margin-bottom: 50px; }
+
+                                                            header .block_req_bottom4 {
+                                                              width: 250px;
+                                                              height: 230px;
+                                                              background: #F8F8FF; }
+  main {
+    height: 1700px; }
+
+    main .a {
+      height: 850px; 
+      background: #20B2AA;
+      color: white; }
+      
+      main .a img {
+        height: 900px; 
+        width: 100%; }
+      
+        .a h2 {
+          margin: 50px 0px;
+          text-transform: uppercase; }
+      
+          main .a .left {
+            float: left;
+            width: 50%; }
+      
+          main .a .right {
+            width: 50%;
+            display: flex;
+            flex-direction: column; }
+      
+            main .right h3 {
+              float: left;
+              font-size: 50px;
+              margin: 0px 30px 50px 0px; }
+      
+              main .a .right p {
+                margin: 0px;
+                text-transform: uppercase; }
+      
+                main .help1 {
+                  width: 400px;
+                  height: 115px;
+                  margin: 0px 0px 50px 20px; }
+                
+                  main .help2 {
+                    width: 400px;
+                    height: 115px;
+                    margin: 0px 0px 50px 70px; }
+                  
+                    main .help3 {
+                      width: 400px;
+                      height: 115px;
+                      margin: 0px 0px 50px 20px; }
+                    
+                      main .help4 {
+                        width: 400px;
+                        height: 115px;
+                        margin: 0px 0px 0px 70px }
+    
+
+  main .b {
+    height: 700px;
+    text-transform: uppercase; 
+    background-image: url(../bg_png/right.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 200px 500px;}
+
+    .b .offer {
+      display: flex; 
+      justify-content: center; }
+
+      .b .offer div {
+        width: 200px; }
+
+        .block_offer_left {
+          margin-right: 150px; }
+
+          .block_offer_center {
+            margin-right: 150px; }
+
+            .block_offer_left_top1 {
+              margin-bottom: 100px; }
+
+              .block_offer_center_top1 {
+                margin-bottom: 100px; }
+
+                .block_offer_right_top1 {
+                  margin-bottom: 100px; }
+
+                  .b .block_offer_top1 {
+                    width: 200px;
+                    height: 200px;
+                    background: url(../webdev_test/webdev_test/icons/offers/1.png);
+                    background-size: 200px 200px; }
+
+                    .b h2 {
+                      margin: 50px 0px 100px 0px; }
+
+                      .b .block_offer_top1:hover {
+                        background: url(../webdev_test/webdev_test/icons/offers/hover1.png);
+                        background-size: 200px 200px; }
+
+                        .b .block_offer_bottom1 {
+                          width: 200px;
+                          height: 200px;
+                          background: url(../webdev_test/webdev_test/icons/offers/4.png);
+                          background-size: 200px 200px; }
+
+                          .b .block_offer_bottom1:hover {
+                            background: url(../webdev_test/webdev_test/icons/offers/hover4.png);
+                            background-size: 200px 200px; }
+
+                            .b .block_offer_top2 {
+                              width: 200px;
+                              height: 200px;
+                              background: url(../webdev_test/webdev_test/icons/offers/2.png);
+                              background-size: 200px 200px; }
+
+                              .b .block_offer_top2:hover {
+                                background: url(../webdev_test/webdev_test/icons/offers/hover2.png);
+                                background-size: 200px 200px; }
+
+                                .b .block_offer_bottom2 {
+                                  width: 200px;
+                                  height: 200px;
+                                  background: url(../webdev_test/webdev_test/icons/offers/5.png);
+                                  background-size: 200px 200px; }
+
+                                  .b .block_offer_bottom2:hover {
+                                    background: url(../webdev_test/webdev_test/icons/offers/hover5.png);
+                                    background-size: 200px 200px; }
+
+                                    .b .block_offer_top3 {
+                                      width: 200px;
+                                      height: 200px;
+                                      background: url(../webdev_test/webdev_test/icons/offers/3.png);
+                                      background-size: 200px 200px; }
+
+                                      .b .block_offer_top3:hover {
+                                        background: url(../webdev_test/webdev_test/icons/offers/hover3.png);
+                                        background-size: 200px 200px; }
+
+                                        .b .block_offer_bottom3 {
+                                          width: 200px;
+                                          height: 200px;
+                                          background: url(../webdev_test/webdev_test/icons/offers/6.png);
+                                          background-size: 200px 200px; }
+
+                                          .b .block_offer_bottom3:hover {
+                                            background: url(../webdev_test/webdev_test/icons/offers/hover6.png);
+                                            background-size: 200px 200px; }
+
+  footer{
+    height: 1050px;
+    background-image: url(../bg_png/3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 1250px;
+    color: white;
+    padding-top: 130px; }
+    
+    .footer h2 {
+      text-align: center;
+      text-transform: uppercase; }
+    
+      footer .contacts {
+        width: 1000px;
+        height: 260px;
+        margin: 0px auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+    
+        .req2 {
+          display: flex;
+          flex-direction: column;
+          margin-right: 350px; }
+      
+          footer .req2 h4 {
+            margin: 0px auto;
+            margin-bottom: 50px;
+            text-transform: uppercase; }
+    
+            footer .req2 input {
+              width: 250px;
+              display: block;
+              border: 0px;
+              border-bottom: 2px solid #20B2AA;
+              font-family: "ComicSansMS"; 
+              background: none;
+              color: white; }
+    
+              footer .req2 p {
+                color: #20B2AA;
+                margin: 30px 0px 10px 0px;
+                text-transform: uppercase;
+                font-size: 13px; }
+        
+                footer .req2 button {
+                  background-image: linear-gradient(to right, #fb6a4e, #ff606a);
+                  width: 150px;
+                  height: 40px;
+                  border-radius: 5px;
+                  border: 0px;
+                  color: white;
+                  margin: 0px auto;
+                  margin-top: 40px;
+                  font-size: 15px;
+                  font-family: "ComicSansMS";
+                  text-transform: uppercase; 
+                  background-size: 200% auto;
+                  transition: .5s; }
+                  
+                  button:hover {
+                    background-position: right center; }
+
+                    .adr {
+                      display: flex;
+                      flex-direction: column;
+                      text-transform: uppercase; }
+        
+                      .adr h4 {
+                        margin: 0px 0px 50px 0px; }
+                      
+                        .adr p {
+                          margin: 0px 0px 10px 0px; }
+                      
+                          #mail {
+                            text-transform: none;
+                            margin-bottom: 60px; }
+                      
+                            .social img {
+                              margin: 0px 40px 0px 0px; }
+                            
+                              .social .in:hover {
+                                background: url(../webdev_test/webdev_test/icons/sotial_network/linkedin_active.png); }
+                            
+                                .social .tw:hover {
+                                  background: url(../webdev_test/webdev_test/icons/sotial_network/twiter_active.png); }
+                              
+                                  .social .fb:hover {
+                                    background: url(../webdev_test/webdev_test/icons/sotial_network/fb_active.png); }
+
+                                    #map {
+                                      width: 100%;
+                                      height: 500px; }
+                                      
+                                      .footer h5 {
+                                        margin: 0px;
+                                        text-align: center;
+                                        text-transform: uppercase; }
+
+@font-face { 
+  font-family: "ComicSansMS"; 
+  src: url("../fonts/ComicSansMS.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 

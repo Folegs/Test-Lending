@@ -1,0 +1,6 @@
+Hello, In this task please implement the the design (in the ./TEST.png) 
+using HTML, CSS, JS(For the google maps). This is a static page, 
+so there is no need in using React or Angular etc. 
+There is an offers file that contains images for offers, 
+please use one image for default state and the second(the red one) for hover.
+
